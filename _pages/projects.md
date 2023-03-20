@@ -4,7 +4,7 @@ permalink: /projects/
 title: projects
 nav: true
 nav_order: 5
-description: some of the honorable projects I have worked on with the Lebanese government and in my university.
+description: some of the honorable projects I have worked on.
 ---
 
  
