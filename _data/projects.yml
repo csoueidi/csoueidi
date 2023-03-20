@@ -5,7 +5,7 @@
   role:  Chief Developer
   description: We designed and implemented a distributed web application that collects streams of water consumption data from smart meters. The application processes the data and handles billing while monitoring consumption to generate alerts and notifications. Our team aimed to improve the efficiency and accuracy of water consumption monitoring and billing through advanced algorithms and reliable, scalable architecture. The result is a cutting-edge application deployed in parts of Beirut that when deployed across all of Lebanon has the potential to revolutionize the way water consumption is managed and monitored.
   project-type: Governmental
-  image: assets/img/ebml.jpg
+  image: assets/img/g164.png
 
 
 - title: Vehicle Plate Issuance System -- Lebanon

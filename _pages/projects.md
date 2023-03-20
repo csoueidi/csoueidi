@@ -7,7 +7,11 @@ nav_order: 5
 description: some of the honorable projects I have worked on.
 ---
 
- 
+ <style>
+  .image-margin {
+  margin: 10px;
+}
+  </style>
 
 <div class="container">
   {% assign project_types = site.data.projects | group_by: "project-type" %}
@@ -18,7 +22,7 @@ description: some of the honorable projects I have worked on.
     <div class="col-md-12 mb-4">
       <div class="card">
         {% if project.image %}
-        <img src="{{ site.url }}/{{ site.baseurl }}/{{ project.image }}" class="card-img-top float-left mr-3 mb-3" alt="{{ project.title }}" style="width:150px;">
+        <img src="{{ site.url }}/{{ site.baseurl }}/{{ project.image }}" class="card-img-top float-left mr-3 mb-3 image-margin" alt="{{ project.title }}" style="width:80px;">
         {% endif %}
         <div class="card-body">
           <h5 class="card-title">{{ project.title }}</h5>
