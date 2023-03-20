@@ -6,7 +6,7 @@
 
 p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
   color: var(--global-text-color);
-  // font-family: 'JetBrains Mono', monospace;
+  // font-family: 'Rubik Iso';
 }
 
 hr {
@@ -37,6 +37,12 @@ figure, img {
   max-width: 90vw;
 }
 
+.card-text {
+  font-weight: 300 !important;
+  font-size: 1rem !important;
+  color: var(--global-text-color) !important;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 2px solid var(--global-theme-color);
@@ -65,7 +71,7 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
-
+ 
   img {
     width: 100%;
   }
@@ -84,6 +90,8 @@ blockquote {
     }
   }
 }
+
+ 
 
 // Citation
 
@@ -306,6 +314,7 @@ footer.sticky-bottom {
   .card {
     background-color: var(--global-card-bg-color);
     border: 1px solid var(--global-divider-color);
+
     
     .list-group-item {
       background-color: inherit;
