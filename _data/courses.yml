@@ -31,7 +31,7 @@
   role: Lecturer
   type: Misc
   date: 12/2013  
-  attendees: 50
+  attendees: Developers
   with: Microsoft
   details: Provided technical support to participants over two consecutive days for designing and developing Windows Store and Windows Phone apps using XAML and C#. Actively peer programmed with participants to provide direct guidance.
 
@@ -40,7 +40,7 @@
   role: Lecturer
   type: Misc
   date: 3/2014  
-  attendees: 50
+  attendees: Students and Developers
   with: Microsoft
   details: Spent the day providing guidance and advice to Imagine Cup participants at Microsoft HQ in Beirut, focusing on Windows Phone XAML and C# app development. Offered expertise in medical solutions, drawing from relevant business experience.
 
@@ -49,7 +49,7 @@
   role: Lecturer
   date: 07/2014
   type: Lectures
-  attendees: 20 developers
+  attendees: Developers
   with: Microsoft
   details: Conducted a two-hour session on building Windows Store apps with XAML and C#, including the deployment of several samples.
 
@@ -58,7 +58,7 @@
   role: Lecturer
   date: 07/2014
   type: Lectures
-  attendees: 20 developers
+  attendees: Developers
   with: Microsoft
   details: Conducted a two-hour session diving into Push Notifications, Live Tiles, and Toast Notifications.
 
@@ -67,7 +67,7 @@
   role: Lecturer
   date: 07/2014
   type: Lectures
-  attendees: 20 developers
+  attendees: Developers
   with: Microsoft
   details: Conducted a two-hour session covering the basics of Azure integration (including mobile services), authentication, and publishing to the Windows Store.
 
