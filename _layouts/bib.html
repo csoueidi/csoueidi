@@ -1,3 +1,10 @@
+<!-- <style>
+  .row{
+    font-family: 'JetBrains Mono', monospace;
+  }
+  </style> -->
+
+
 ---
 ---
 <!-- _layouts/bib.html -->
@@ -146,6 +153,9 @@
           {%- endif %}
           {%- if entry.html %}
             <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+          {%- endif %}
+          {%- if entry.url %}
+          <a href="{{ entry.url }}" class="btn btn-sm z-depth-0" role="button">link</a>
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}

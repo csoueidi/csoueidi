@@ -1,0 +1,65 @@
+# Lectures
+- title: Microsoft Day @ AUST Beirut
+  lecture: Windows Phone Development with XAML and C#
+  role: Lecturer
+  date: 12/2013
+  attendees: 50 Computer Science students
+  engagement: Microsoft
+  details: Delivered an hour-long presentation providing an overview of the Windows Phone app templates in Visual Studio, followed by the development of a simple "Hello AUST" app and a live demo on the phone.
+
+- title: Microsoft Day @ LAU Jbeil
+  lecture: Windows Phone Development with XAML and C#
+  role: Lecturer
+  date: 11/2013
+  attendees: 50 Computer Science students
+  engagement: Microsoft
+  details: Conducted a two-hour session demonstrating the development of a WP8 app connected to Windows Azure Mobile services. Also presented the online app studio and developed an app displaying all feeds by the LAU website.
+
+- title: Microsoft Developers Bootcamp
+  lecture: Windows Phone 8 Development with XAML and C#
+  role: Lecturer
+  date: 11/2013
+  attendees: Webcast
+  engagement: Microsoft
+  details: Conducted a one-hour session to demonstrate the migration of a Windows 8 app into WP8 and developed features such as pinning to the home screen and sharing to social media.
+
+- title: Microsoft Dev Camp
+  lecture: Windows Store and Windows Phone App Design and Development with XAML and C#
+  role: Lecturer
+  date: 12/2013 (2 Full Days)
+  attendees: 50
+  engagement: Microsoft
+  details: Provided technical support to participants over the course of two consecutive days for designing and developing Windows Store and Windows Phone apps using XAML and C#. Actively peer programmed with participants to provide direct guidance.
+
+- title: Imagine Cup Preparation Sessions
+  lecture: Windows Phone XAML and C# App Development
+  role: Lecturer
+  date: 3/2014 (1 Full Day)
+  attendees: 50
+  engagement: Microsoft
+  details: Spent the day providing guidance and advice to Imagine Cup participants at Microsoft HQ in Beirut, focusing on Windows Phone XAML and C# app development. Offered expertise in medical solutions, drawing from relevant business experience.
+
+- title: Microsoft at BMB
+  lecture: Building Windows Store Apps with XAML and C#
+  role: Lecturer
+  date: 07/2014
+  attendees: 20 developers
+  engagement: Microsoft
+  details: Conducted a two-hour session on building Windows Store apps with XAML and C#, including the deployment of several samples.
+
+- title: Microsoft at BMB
+  lecture: Implementing Windows 8.1 Features in Apps
+  role: Lecturer
+  date: 07/2014
+  attendees: 20 developers
+  engagement: Microsoft
+  details: Conducted a two-hour session diving into Push Notifications, Live Tiles, and Toast Notifications.
+
+- title: Microsoft at BMB
+  lecture: Architecture and Data Strategies in Windows Store Apps
+  role: Lecturer
+  date: 07/2014
+  attendees: 20 developers
+  engagement: Microsoft
+  details: Conducted a two-hour session covering the basics of Azure integration (including mobile services), authentication, and publishing to the Windows Store.
+ 

@@ -1,0 +1,133 @@
+- lecture: Microsoft Day @ AUST Beirut
+  title: Windows Phone Development with XAML and C#
+  role: Lecturer
+  date: 12/2013
+  type: Lectures
+  attendees: Computer Science students
+  with: Microsoft
+  details: Delivered an hour-long presentation providing an overview of the Windows Phone app templates in Visual Studio, followed by the development of a simple "Hello AUST" app and a live demo on the phone.
+
+- lecture: Microsoft Day @ LAU Jbeil
+  title: Windows Phone Development with XAML and C#
+  role: Lecturer
+  date: 11/2013
+  attendees: Computer Science students
+  with: Microsoft
+  type: Lectures
+  details: Conducted a two-hour session demonstrating the development of a WP8 app connected to Windows Azure Mobile Services. Also presented the online app studio and developed an app displaying all feeds by the LAU website.
+
+- lecture: Microsoft Developers Bootcamp
+  title: Windows Phone 8 Development with XAML and C#
+  role: Lecturer
+  type: Lectures
+  date: 11/2013
+  attendees: Webcast
+  url: https://www.youtube.com/watch?v=-YojJWTHDqg
+  with: Microsoft
+  details: Conducted a one-hour session to demonstrate the migration of a Windows 8 app into WP8 and developed features such as pinning to the home screen and sharing to social media.
+
+- lecture: Microsoft Dev Camp
+  title: Windows Store and Windows Phone App Design and Development with XAML and C#
+  role: Lecturer
+  type: Misc
+  date: 12/2013  
+  attendees: 50
+  with: Microsoft
+  details: Provided technical support to participants over two consecutive days for designing and developing Windows Store and Windows Phone apps using XAML and C#. Actively peer programmed with participants to provide direct guidance.
+
+- lecture: Imagine Cup Preparation Sessions
+  title: Windows Phone XAML and C# App Development
+  role: Lecturer
+  type: Misc
+  date: 3/2014  
+  attendees: 50
+  with: Microsoft
+  details: Spent the day providing guidance and advice to Imagine Cup participants at Microsoft HQ in Beirut, focusing on Windows Phone XAML and C# app development. Offered expertise in medical solutions, drawing from relevant business experience.
+
+- title:  Building Windows Store Apps with XAML and C#
+  lecture: Microsoft @ BMB
+  role: Lecturer
+  date: 07/2014
+  type: Lectures
+  attendees: 20 developers
+  with: Microsoft
+  details: Conducted a two-hour session on building Windows Store apps with XAML and C#, including the deployment of several samples.
+
+- lecture: Microsoft @ BMB
+  title: Implementing Windows 8.1 Features in Apps
+  role: Lecturer
+  date: 07/2014
+  type: Lectures
+  attendees: 20 developers
+  with: Microsoft
+  details: Conducted a two-hour session diving into Push Notifications, Live Tiles, and Toast Notifications.
+
+- lecture: Microsoft @ BMB
+  title: Architecture and Data Strategies in Windows Store Apps
+  role: Lecturer
+  date: 07/2014
+  type: Lectures
+  attendees: 20 developers
+  with: Microsoft
+  details: Conducted a two-hour session covering the basics of Azure integration (including mobile services), authentication, and publishing to the Windows Store.
+
+- title: Developing MS .NET Applications for Windows
+  role: Instructor
+  date: 2012
+  type: Training
+  with: Formatech Lebanon  
+  attendees: Professionals
+  details: An 8-week course designed to equip participants with the skills and knowledge necessary to create Windows-based applications using the Microsoft .NET framework.
+ 
+- title: Accessing Data with Microsoft .NET Framework
+  role: Instructor
+  date: 2013
+  type: Training
+  with: Formatech Lebanon
+  attendees: Professionals
+  details: An 8-week course designed to teach participants how to effectively access and manipulate data using the Microsoft .NET framework.
+
+- title: Mobile Development
+  course: CMPS 297N
+  role: TA and co-lecturer
+  semester: Spring 2018
+  year: 2018
+  type: Courses
+  with: American University of Beirut
+
+- title: Programming for Digital Art
+  course: CMPS 207
+  role: TA and co-lecturer
+  semester: Fall 2018, Fall 2017
+  year: 2018
+  type: Courses
+  with: American University of Beirut
+  
+- title: Introduction to Computing Systems
+  course: CMPS 205 
+  role: TA and co-lecturer 
+  semester: Spring 2018, Fall 2019
+  type: Courses
+  year: 2017
+  with: American University of Beirut
+
+  
+- title: Industrial Processes for High-Confidence Design
+  course: HECS 4 
+  role: TA and co-lecturer
+  semester: Fall 2021
+  year: 2021
+  type: Courses
+  with: Université Grenoble Alpes
+  attendees: Master students in Computer Science
+  details: Testing, monitoring, and runtime verification. Verifying and enforcing software user-provided and concurrency properties at runtime
+
+
+- title: AUB .Net Workshop
+  role: Lecturer
+  date: "From Feb 2014 – Till May 2014"
+  year: 2014
+  type: Workshops
+  attendees: Computer Science students
+  with: American University of Beirut
+  details: "In a collaboration between the American University of Beirut and Microsoft, the purpose of this workshop is to introduce AUB students to .Net (AUB does not offer any .Net courses)."
