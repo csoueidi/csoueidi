@@ -4,7 +4,7 @@
     - name: Full Name
       value: Chukri Soueidi
     - name: Current Position
-      value: Researcher at Inria
+      value: Ph.D. Researcher at Inria
     - name: Location
       value: Grenoble, France
     - name: Email
@@ -15,29 +15,12 @@
 
 
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 2019
-      items:
-        - AUB Computer Science Graduate Student of the Year Award
-    - year: 2016
-      items:
-        - Microsoft Most Valuable Professional (MVP) Award
-    - year: 2015
-      items:
-        - Microsoft Most Valuable Professional (MVP) Award
-    - year: 2014
-      items:
-        - Microsoft Most Valuable Professional (MVP) Award
-           
-
 - title: Experience
   type: time_table
   contents:
     - title: Ph.D. Researcher
       institution: Inria, Grenoble Area, France
-      year: 2020 - Present
+      year: 2020 - 
       description:
         - Conducting research on runtime verification of concurrent and distributed programs.
         - Contributing to the development of sound and expressive verification frameworks.
@@ -113,11 +96,28 @@
 
 
 
+# - title: Honors and Awards
+#   type: time_table
+#   contents:
+#     - year: 2019
+#       items:
+#         - AUB Computer Science Graduate Student of the Year Award
+#     - year: 2016
+#       items:
+#         - Microsoft Most Valuable Professional (MVP) Award
+#     - year: 2015
+#       items:
+#         - Microsoft Most Valuable Professional (MVP) Award
+#     - year: 2014
+#       items:
+#         - Microsoft Most Valuable Professional (MVP) Award
+           
+
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Tennis playing, marathon running, history of Computer Science.
+    - <u>Hobbies:</u> Tennis, marathon running, beach, reading.
 
 # - title: Hobbies & Interests
 #   type: list

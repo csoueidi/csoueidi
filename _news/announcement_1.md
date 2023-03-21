@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2022-10-17 
 inline: true
 ---
 
-A simple inline announcement.
+Presented our paper "Residual Runtime Verification via Reachability Analysis" in [VSTTE 2022](https://vstte22.fbk.eu) in the city of Trento, Italy.

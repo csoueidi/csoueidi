@@ -6,11 +6,11 @@ description: my teaching engagements.
 nav: true
 nav_order: 5
 ---
- <!-- <style>
+ <style>
   .card-title{
     font-family: 'JetBrains Mono', monospace;
   }
-  </style> -->
+  </style>
 
 <div class="container">
   

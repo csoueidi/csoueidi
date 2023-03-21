@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2023-03-16 
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Presented our work on "Opportunistic Monitoring of Multithreaded Programs" in [MTV2 2023](https://sites.google.com/view/gdr-gpl-mtv2/manifestations-mtv2/16-03-2023) at Université Paris Saclay.
