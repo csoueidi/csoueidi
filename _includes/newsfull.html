@@ -6,7 +6,7 @@
               <table class="table table-sm table-borderless">
               {%- assign news = site.news | reverse -%}
               {% if site.news_limit %}
-              {% assign news_limit = site.news_limit %}
+              {% assign news_limit = site.news_size %}
               {% else %}
               {% assign news_limit = news_size %}
               {% endif %}
