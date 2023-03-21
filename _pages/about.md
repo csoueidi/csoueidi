@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle:  Grenoble, France.
+subtitle:  Grenoble, France
 
 profile:
   align: right
@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 pdf1: lettercmps.pdf 
 
 ---
- I am currently a Ph.D. Researcher at [Inria](http://inria.fr), where I have been working since October 2020 on my [thesis](https://www.theses.fr/s246965) titled: A Framework for Sound and Expressive Runtime Verification of Multithreaded Applications. My research falls under formal methods and software engineering, specifically [runtime verification](https://en.wikipedia.org/wiki/Runtime_verification) of concurrent and distributed programs. 
+ I am currently a Ph.D. Researcher at [Inria](http://inria.fr), where I have been working since October 2020 on my [thesis](https://www.theses.fr/s246965) titled: <i>A Framework for Sound and Expressive Runtime Verification of Multithreaded Applications</i>. My research falls under formal methods and software engineering, specifically [runtime verification](https://en.wikipedia.org/wiki/Runtime_verification) of concurrent and distributed programs. 
 
 Before starting my Ph.D., I worked at the American University of Beirut (AUB) as a Senior Software Engineer and Analyst for nearly seven years. During this time, I developed various lighthouse projects, including the student's electronic voting system, a payments portal, and an online retail system. I also led a team of computer science and engineering students working on projects for the university. In the past, I held the position of Software Development Team Lead at HealthInvest. 
 

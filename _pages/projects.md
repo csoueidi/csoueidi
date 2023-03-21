@@ -4,7 +4,7 @@ permalink: /projects/
 title: selected projects
 nav: true
 nav_order: 5
-description: some of the honorable projects I have worked on.
+description: honorable projects I have worked on.
 ---
 
  <style>
@@ -17,10 +17,30 @@ description: some of the honorable projects I have worked on.
 }
   </style>
 
+
+ <style>
+  /* .card-title{
+    font-family: 'JetBrains Mono', monospace;
+  } */
+  .projects h4{
+    font-weight: bolder;
+    font-size: 1.1rem;
+  }
+  
+  .projects h5{
+    font-weight: bolder;
+    font-size: 1rem;
+  }
+
+    .courses card-body{
+   
+   padding: 1rem;
+  }
+  </style>
   
   
 
-<div class="container">
+<div class="container projects">
   {% assign project_types = site.data.projects | group_by: "project-type" %}
   {% for project_type in project_types %}
   <h3 >{{ project_type.name }}</h3>
@@ -33,8 +53,8 @@ description: some of the honorable projects I have worked on.
         {% endif %}
         <div class="card-body">
           <h4 class="card-title">{{ project.title }}</h4>
-          <h5 class="card-subtitle mb-2">{{ project.role }}</h5>
-             <h6 class="card-subtitle mb-2">{{ project.year }}</h6>
+          <h5 class="card-subtitle mb-2 text-muted">{{ project.role }}</h5>
+             <h6 class="card-subtitle mb-2  text-muted">{{ project.year }}</h6>
              <!-- <div class="year mb-2">Year: {{ project.year }}</div>          -->
  
           <p class="card-text">{{ project.description }}</p>

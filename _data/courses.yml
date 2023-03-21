@@ -80,7 +80,7 @@
   details: Conducted a two-hour session covering the basics of Azure integration (including mobile services), authentication, and publishing to the Windows Store.
 
 - title: Developing MS .NET Applications for Windows
-  role: Instructor
+  role: Trainer
   date: 2012
   year: 2012
   type: Training
@@ -102,12 +102,12 @@
   description: "Techdays event is a meeting point for many IT professionals. These were my first public speaking and live coding experience, it was a great success."
   attendees: Over 500 developers, IT professionals, and students
 
-- lecture: Windows Phone XNA and game development
+- title: Windows Phone XNA and game development
   role: Speaker and Live Coder
   date: 05/2012
   year: 2012
   with: Microsoft
-  title: TechDays 3 Beirut Microsoft | OPEN DOORS
+  lecture: TechDays 3 Beirut Microsoft | OPEN DOORS
   description: "Techdays event is a meeting point for many IT professionals. These were my first public speaking and live coding experience, it was a great success."
   attendees: Over 500 developers, IT professionals, and students
   type: Lectures
@@ -128,7 +128,7 @@
  
 - title: Accessing Data with Microsoft .NET Framework
   course: 10265A
-  role: Instructor
+  role: Trainer
   semester: 2013
   year: 2013
   date: 2013
@@ -174,8 +174,8 @@
 
 
 - title: AUB .Net Workshop
-  role: Lecturer
-  date: "From Feb 2014 – Till May 2014"
+  role: Trainer
+  date: "Feb 2014 – May 2014"
   year: 2014
   type: Training
   attendees: Computer Science students
