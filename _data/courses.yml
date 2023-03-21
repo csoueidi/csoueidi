@@ -2,6 +2,7 @@
   title: Windows Phone Development with XAML and C#
   role: Lecturer
   date: 12/2013
+  year: 2013
   type: Lectures
   attendees: Computer Science students
   with: Microsoft
@@ -11,6 +12,7 @@
   title: Windows Phone Development with XAML and C#
   role: Lecturer
   date: 11/2013
+  year: 2013
   attendees: Computer Science students
   with: Microsoft
   type: Lectures
@@ -21,6 +23,7 @@
   role: Lecturer
   type: Lectures
   date: 11/2013
+  year: 2013
   attendees: Webcast
   url: https://www.youtube.com/watch?v=-YojJWTHDqg
   with: Microsoft
@@ -28,18 +31,20 @@
 
 - lecture: Microsoft Dev Camp
   title: Windows Store and Windows Phone App Design and Development with XAML and C#
-  role: Lecturer
-  type: Misc
-  date: 12/2013  
+  role: Trainer
+  type: Traning
+  date: 12/2013
+  year: 2013  
   attendees: Developers
   with: Microsoft
   details: Provided technical support to participants over two consecutive days for designing and developing Windows Store and Windows Phone apps using XAML and C#. Actively peer programmed with participants to provide direct guidance.
 
 - lecture: Imagine Cup Preparation Sessions
   title: Windows Phone XAML and C# App Development
-  role: Lecturer
-  type: Misc
+  role: Trainer
+  type: Training
   date: 3/2014  
+  year: 2014
   attendees: Students and Developers
   with: Microsoft
   details: Spent the day providing guidance and advice to Imagine Cup participants at Microsoft HQ in Beirut, focusing on Windows Phone XAML and C# app development. Offered expertise in medical solutions, drawing from relevant business experience.
@@ -48,6 +53,7 @@
   lecture: Microsoft @ BMB
   role: Lecturer
   date: 07/2014
+  year: 2014
   type: Lectures
   attendees: Developers
   with: Microsoft
@@ -57,6 +63,7 @@
   title: Implementing Windows 8.1 Features in Apps
   role: Lecturer
   date: 07/2014
+  year: 2014
   type: Lectures
   attendees: Developers
   with: Microsoft
@@ -66,6 +73,7 @@
   title: Architecture and Data Strategies in Windows Store Apps
   role: Lecturer
   date: 07/2014
+  year: 2014
   type: Lectures
   attendees: Developers
   with: Microsoft
@@ -74,18 +82,60 @@
 - title: Developing MS .NET Applications for Windows
   role: Instructor
   date: 2012
+  year: 2012
   type: Training
   with: Formatech Lebanon  
   attendees: Professionals
-  details: An 8-week course designed to equip participants with the skills and knowledge necessary to create Windows-based applications using the Microsoft .NET framework.
+  details: A 30 hours course designed to equip participants with the skills and knowledge necessary to create Windows-based applications using the Microsoft .NET framework.
+
+
+
+
+
+- title: Windows Phone Apps Development
+  role: Speaker and Live Coder
+  date: 05/2012
+  year: 2012
+  lecture: TechDays 3 Beirut Microsoft | OPEN DOORS
+  type: Lectures
+  with: Microsoft
+  description: "Techdays event is a meeting point for many IT professionals. These were my first public speaking and live coding experience, it was a great success."
+  attendees: Over 500 developers, IT professionals, and students
+
+- lecture: Windows Phone XNA and game development
+  role: Speaker and Live Coder
+  date: 05/2012
+  year: 2012
+  with: Microsoft
+  title: TechDays 3 Beirut Microsoft | OPEN DOORS
+  description: "Techdays event is a meeting point for many IT professionals. These were my first public speaking and live coding experience, it was a great success."
+  attendees: Over 500 developers, IT professionals, and students
+  type: Lectures
+
+- title:  Build better, connected Windows Phone 8 apps in minutes using Windows Azure
+  role: Speaker
+  with: Microsoft
+  date: 07/2013
+  year: 2013
+  lecture: TechDays 5 - The Microsoft Experience
+  description: "In this session, I demoed how to connect windows phone apps to the Windows Azure services and use the full range of benefits of the cloud."
+  attendees: Over 400 developers, IT professionals, and students
+  type: Lectures
+ 
+
+
+
  
 - title: Accessing Data with Microsoft .NET Framework
+  course: 10265A
   role: Instructor
+  semester: 2013
+  year: 2013
   date: 2013
   type: Training
   with: Formatech Lebanon
   attendees: Professionals
-  details: An 8-week course designed to teach participants how to effectively access and manipulate data using the Microsoft .NET framework.
+  details: A 30 hours course designed to teach participants how to effectively access and manipulate data using the Microsoft .NET framework.
 
 - title: Mobile Development
   course: CMPS 297N
@@ -127,7 +177,7 @@
   role: Lecturer
   date: "From Feb 2014 – Till May 2014"
   year: 2014
-  type: Workshops
+  type: Training
   attendees: Computer Science students
   with: American University of Beirut
   details: "In a collaboration between the American University of Beirut and Microsoft, the purpose of this workshop is to introduce AUB students to .Net (AUB does not offer any .Net courses)."
