@@ -14,6 +14,17 @@
 
 
 
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2019
+      items:
+        - AUB Computer Science Graduate Student of the Year Award
+    - year: 2014 - 2016
+      items:
+        - 3 times Microsoft Most Valuable Professional (MVP) Award
+   
+           
 
 - title: Experience
   type: time_table
@@ -96,22 +107,6 @@
 
 
 
-# - title: Honors and Awards
-#   type: time_table
-#   contents:
-#     - year: 2019
-#       items:
-#         - AUB Computer Science Graduate Student of the Year Award
-#     - year: 2016
-#       items:
-#         - Microsoft Most Valuable Professional (MVP) Award
-#     - year: 2015
-#       items:
-#         - Microsoft Most Valuable Professional (MVP) Award
-#     - year: 2014
-#       items:
-#         - Microsoft Most Valuable Professional (MVP) Award
-           
 
 
 - title: Other Interests
