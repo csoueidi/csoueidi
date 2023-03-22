@@ -6,7 +6,7 @@ subtitle:  Grenoble, France
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof.png
   image_circular: true # crops the image to make it circular
   address: > 
   
