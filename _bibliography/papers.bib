@@ -4,7 +4,7 @@
   author       = {Chukri Soueidi and
                   Antoine El{-}Hokayem and
                   Yli{\`{e}}s Falcone},
-                      abbr={FASE},
+ abbr={FASE},
   editor       = {Leen Lambers and
                   Sebasti{\'{a}}n Uchitel},
   title        = {Opportunistic Monitoring of Multithreaded Programs},
@@ -17,12 +17,35 @@
   pages        = {173--194},
   publisher    = {Springer},
   year         = {2023},
+  abstract="We introduce a generic approach for monitoring multithreaded programs online leveraging existing runtime verification (RV) techniques. In our setting, monitors are deployed to monitor specific threads and only exchange information upon reaching synchronization regions defined by the program itself. They use the opportunity of a lock in the program, to evaluate information across threads. As such, we refer to this approach as opportunistic monitoring. By using the existing synchronization, our approach reduces additional overhead and interference to synchronize at the cost of adding a delay to determine the verdict. We utilize a textbook example of readers-writers to show how opportunistic monitoring is capable of expressing specifications on concurrent regions. We also present a preliminary assessment of the overhead of our approach and compare it to classical monitoring showing that it scales particularly well with the concurrency present in the program."
+  ,
   url          = {https://doi.org/10.1007/978-3-031-30826-0\_10},
   doi          = {10.1007/978-3-031-30826-0\_10},
   timestamp    = {Sat, 29 Apr 2023 19:25:03 +0200},
   biburl       = {https://dblp.org/rec/conf/fase/SoueidiEF23.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+
+@InProceedings{10.1007/978-3-031-32157-3_4,
+author="Soueidi, Chukri
+and Falcone, Yli{\`e}s",
+editor="Caltais, Georgiana
+and Schilling, Christian",
+title="Sound Concurrent Traces for Online Monitoring",
+booktitle="Model Checking Software - 29th International Symposium, SPIN 2023, Co-located with the European Joint Conferences
+                  on Theory and Practice of Software, {ETAPS} 2023, Paris, France, April 26–27, 2023, Proceedings",
+year="2023",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="59--80",
+abstract="Monitoring concurrent programs typically rely on collecting traces to abstract program executions. However, existing approaches targeting general behavioral properties are either not tailored for online monitoring, are no longer maintained, or implement naive instrumentation that often leads to unsound verdicts. We first define the notion of when a trace is representative of a concurrent execution. We then present a non-blocking vector clock algorithm to collect sound concurrent traces on the fly reflecting the partial order between events. Moreover, concurrent events in the representative trace pose a soundness problem for monitors synthesized from total order formalisms. For this, we extract a causal dependence relation from the monitor to check if the trace has the needed orderings and define the conditions to decide at runtime when a collected trace is monitorable. We implement our contributions in a tool, FACTS, which instruments programs compiling to Java bytecode, constructs sound representative traces, and warns the monitor about non-monitorable traces. We evaluate our work and compare it with existing approaches.",
+isbn="978-3-031-32157-3",
+doi={10.1007/978-3-031-32157-3_4},
+url={https://doi.org/10.1007/978-3-031-32157-3_4},
+ abbr={SPIN},
+}
+
+
 
 @inproceedings{DBLP:conf/sac/SoueidiF22,
    bibtex_show={true},
