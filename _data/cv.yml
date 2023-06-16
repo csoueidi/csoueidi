@@ -33,20 +33,20 @@
       institution: Inria, Grenoble Area, France
       year: 2020 - 
       description:
-        - Researching runtime verification of concurrent and distributed programs.
-        - Contributing to the development of sound and expressive verification frameworks.
-        - Collaborated with Sylvain Hallé from the Formal Computer Science Laboratory at Université du Québec à Chicoutimi (UQAC).
+        - Research focused on formal methods and software engineering, particularly runtime verification of concurrent systems.
+        - Worked on CPS4EU project.
+        - Visited and collaborated with Sylvain Hallé at the Formal Computer Science Laboratory at Université du Québec à Chicoutimi (UQAC).
     - title: Research Engineer
       institution: Inria, Grenoble Area, France
       year: 2019 - 2020
       description:
-        - Designed, implemented, integrated, and delivered methods and tools that help guarantee programs are safe and secure.
-        - Worked under the CORSE team.
+        - Designed and developed tools for program instrumentation and monitoring.
+        - Member of the CORSE team.
     - title: Senior Software Engineer and Analyst
       institution: American University of Beirut, Beirut, Lebanon
       year: 2012 - 2019
       description:
-        - Designed and developed innovative software solutions within strict deadlines.
+        - Designed and developed innovative cloud and web software solutions within strict deadlines.
         - Developed lighthouse projects from scratch namely the student payments portal, student electronic voting system, AUB estore (online retail system), landscape plants guide, online career services, and clinical research portal.
         - Lead the student software factory, a team of computer science and engineering students working on projects for the university.
     - title: Software Development Team Lead
