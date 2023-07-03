@@ -8,7 +8,7 @@ nav: true
 nav_order: 4
 ---
 
-An up-to-date list is available on <a href="{{ site.dblp_url }}" title="DBLP">dblp</a>
+An up-to-date list is available on <a href="https://scholar.google.com/citations?hl=en&user=UWWRHbcAAAAJ" title="scholar">Google Scholar.</a>
 
 
 <!-- _pages/publications.md -->
