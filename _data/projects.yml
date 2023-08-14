@@ -1,3 +1,11 @@
+- title: CPS4EU Europe
+  year: 2019-2022
+  tags: Cyber-Physical Systems, WP 5 - Tools Background and Requirement Analysis
+  role:  Reliability Research Specialist
+  description: During my work on the CPS4EU project, we focused on enhancing the reliability of Cyber-Physical Systems. We established a single flow for both modeling and verification of component-based systems. One of the practical outcomes was devising preventive actions for drone flight collisions by monitoring specific scenarios.To streamline this process, we integrated DR-BIP (Dynamic Reconfigurable Modeling) with THEMIS (Decentralized Monitoring Framework), enabling automated monitoring and further analyzing Gazebo traces of drone simulations. Collaborations with UGA and TUC were instrumental in our project. Additionally, our work intersected with the "Collaborative Lifting" use case of Work Package 8, leading to improved design-time automation and the integration of new tools.
+  project-type: European Union
+  image: assets/img/cpslogo.png
+
 
 - title: EBML Lebanon
   year: 2018
