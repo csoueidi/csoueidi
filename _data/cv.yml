@@ -4,7 +4,7 @@
     - name: Full Name
       value: Chukri Soueidi
     - name: Current Position
-      value: Ph.D. Researcher at Inria
+      value: Software Engineering Researcher / Doctoral Candidate
     - name: Location
       value: Grenoble, France
     - name: Email
@@ -29,46 +29,36 @@
       items:
         - <a href="http://mvp.microsoft.com/en-us/PublicProfile/5000832" rel="external nofollow noopener" target="_blank">3 times</a> Microsoft Most Valuable Professional (MVP) Award  
 
-           
-
 - title: Experience
   type: time_table
   contents:
-    - title: Ph.D. Researcher
-      institution: Inria, Grenoble Area, France
-      year: 2020 - 2023
+    - title: Software Engineering Researcher / Doctoral Candidate
+      institution: Inria, Grenoble, France
+      year: 2019 - Present
       description:
-        - Conducted research on software engineering and formal methods, with a focus on runtime verification of concurrent systems.
-        - Led INRIA's efforts in CPS4EU project.
-        - Collaborated with UQAC's Formal Computer Science Laboratory.
-        - Reviewed research papers and supervised junior researchers.
-    - title: Research Engineer
-      institution: Inria, Grenoble Area, France
-      year: 2019 - 2020
-      description:
-        - Designed and developed tools for program instrumentation and monitoring.
-        - Member of the CORSE team.
+        - Conducted research in software engineering and formal methods, resulting in several peer-reviewed publications.
+        - Engineered state-of-the-art tools in program instrumentation, dynamic analysis, testing, and monitoring.
+        - Mentored junior researchers and collaborated with external teams, including the Formal Computer Science Laboratory at UQAC.
+        - Contributed to the CPS4EU project, a European initiative to improve the reliability of industrial software systems.
     - title: Senior Software Engineer and Analyst
       institution: American University of Beirut, Beirut, Lebanon
       year: 2012 - 2019
       description:
-        - Designed and developed innovative cloud and web software solutions within strict deadlines.
-        - Developed lighthouse projects from scratch namely the student payments portal, student electronic voting system, AUB estore (online retail system), landscape plants guide, online career services, and clinical research portal.
-        - Lead the student software factory, a team of computer science and engineering students working on projects for the university.
+        - Engineered lighthouse projects that became the backbone for student services such as the student payments portal, student electronic voting system, student clearance system, and AUB estore.
+        - Designed and developed innovative software solution products within strict deadlines; managed the student software factory team.
     - title: Software Development Team Lead
       institution: HealthInvest, Beirut, Lebanon
       year: 2009 - 2012
       description:
-        - Developed a fully electronic medical records system that integrates and communicates with an appointment system, invoicing system, and a web-based retail system.
-        - Established relationships and worked closely with physicians, clinics, hospitals, insurance companies, brokers, and banks.
-        - Dealt with various Middle Eastern governments to establish medical agreements and to develop and deploy clinical solutions.
+        - Developed a fully-fledged electronic medical records product along with an appointment, invoicing, and a web-based retail system.
+        - Liaised with medical professionals, institutions, and Middle Eastern governments to establish medical agreements and deploy clinical solutions.
     - title: Software Engineer
       institution: Partners Managerial Systems, Beirut, Lebanon
       year: 2009
       description:
         - Supported an old legacy hospitality management solution written in FoxPro.
         - Collected new requirements for stakeholders during field trips.
-
+           
 - title: Education
   type: time_table
   contents:
