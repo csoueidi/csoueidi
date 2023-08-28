@@ -2,28 +2,12 @@
 ---
 
 
-@article{soueidi2023efficient,
-  title={Efficient and expressive bytecode-level instrumentation for Java programs},
-  author={Soueidi, Chukri and Monnier, Marius and Falcone, Yli{\`e}s},
-  journal={International Journal on Software Tools for Technology Transfer},
-  pages={1--27},
-     bibtex_show={true},
-  year={2023},
-  publisher={Springer},
-  url={https://link.springer.com/article/10.1007/s10009-023-00708-z},
-  abbr={STTT},
-  doi = {10.1007/s10009-023-00708-z},
-  abstract={We present an efficient and expressive tool for the instrumentation of Java programs at the bytecode level. BISM (Bytecode-Level Instrumentation for Software Monitoring) is a lightweight Java bytecode instrumentation tool that features an expressive high-level control-flow-aware instrumentation language. The instrumentation language is inspired by the aspect-oriented programming paradigm in modularizing instrumentation into separate transformers that encapsulate joinpoint selection and advice inlining, that is the selection of points of interest in the execution and the execution of additional code at these points, respectively. BISM allows capturing joinpoints ranging from bytecode instructions to methods execution and provides comprehensive static and dynamic context information. It runs in two instrumentation modes: build-time and load-time. BISM also provides a mechanism to compose transformers and automatically detect when they interfere on the base program. Transformers in a composition can control the visibility of their advice and other instructions from the base program. We show several example applications for BISM and demonstrate its effectiveness using three experiments: a security scenario, a financial transaction system, and a general runtime verification case. The results show that (i) BISM instrumentation incurs low runtime and memory overheads and (ii) the code produced by BISM performs better than the one produced by existing Java instrumentation tools.}
-
-}
-
-
 @inproceedings{DBLP:conf/fase/SoueidiEF23,
   author       = {Chukri Soueidi and
                   Antoine El{-}Hokayem and
                   Yli{\`{e}}s Falcone},
                      bibtex_show={true},
- abbr={FASE},
+ abbr={FASE 23},
   editor       = {Leen Lambers and
                   Sebasti{\'{a}}n Uchitel},
   title        = {Opportunistic Monitoring of Multithreaded Programs},
@@ -45,6 +29,7 @@
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 
+
 @InProceedings{10.1007/978-3-031-32157-3_4,
 author="Soueidi, Chukri
 and Falcone, Yli{\`e}s",
@@ -62,8 +47,84 @@ abstract="Monitoring concurrent programs typically rely on collecting traces to 
 isbn="978-3-031-32157-3",
 doi={10.1007/978-3-031-32157-3_4},
 url={https://doi.org/10.1007/978-3-031-32157-3_4},
- abbr={SPIN},
+ abbr={SPIN 23},
 }
+
+
+@inproceedings{soueidi2023dynamic,
+  title={Dynamic Program Analysis with Flexible Instrumentation and Complex Event Processing},
+  author={Soueidi, Chukri and Falcone, Yli\`{e}s and Hall\'{e}, Sylvain},
+  booktitle={The 34th IEEE International Symposium on Software Reliability Engineering (ISSRE'23)},
+  note={To appear},
+  year={2023},
+    abbr={ISSRE 23},
+  abstract={This paper presents a flexible and modular approach to dynamic program analysis for JVM-based languages, aiming to address the limitations of existing tools. These limitations include the inability to tailor analyses, limited expressiveness, interference from simultaneous analyses, and lack of reusability due to tightly-coupled instrumentation and analysis. The proposed solution decouples these two processes using BISM, a lightweight instrumentation language, and BeepBeep, a complex event processing engine. This novel combination enhances expressiveness, promotes reusability, allows simultaneous and independent analyses, and integrates seamlessly into JVM-based projects. Various analyses such as monitoring, profiling, coverage measurement, and complex event generation are demonstrated, showcasing the approach's flexibility.}
+}
+
+@inproceedings{soueidi2023monitoring,
+  title={Monitoring Business Process Compliance Across Multiple Executions with Stream Processing},
+  author={Soueidi, Chukri and Falcone, Yli\`{e}s and Hall\'{e}, Sylvain},
+  booktitle={Proceedings of the 27th International EDOC Conference (EDOC 2023): Enterprise Design, Operations, and Computing},
+  year={2023},
+  note={To appear},
+      abbr={EDOC 23},
+  keywords={compliance checking, hyperproperties, log analytics, stream processing, business processes},
+  abstract={Compliance checking is the operation that consists of assessing whether every execution trace of a business process satisfies a given correctness condition. The paper introduces the notion of hyperquery, which is a calculation that involves multiple traces from a log at the same time. A particular case of hyperquery is a hypercompliance condition, which is a correctness requirement that involves the whole log instead of individual process instances. Examples of hyperqueries are given for a few representative scenarios. A formalization of hyperqueries is presented, along with a number of elementary operations to express hyperqueries on arbitrary logs. An implementation of these concepts in an event stream processing engine allows users to concretely evaluate hyperqueries in real time.}
+}
+
+
+@inproceedings{soueidi2023bridging,
+  title={Bridging the Gap: A Focused DSL for RV-Oriented Instrumentation with BISM},
+  author={Soueidi, Chukri and Falcone, Yli\`{e}s},
+  booktitle={Proceedings of the 23rd International Conference on Runtime Verification},
+  year={2023},
+ note={To appear},
+       abbr={RV 23},
+  abstract={We present a novel instrumentation language for BISM, a lightweight bytecode-level instrumentation tool for JVM languages. The new DSL aims to simplify the instrumentation process, making it more accessible to a wider user base. It employs an intuitive syntax, directly mapping to the key requirements of program instrumentation for runtime verification. It enhances productivity by eliminating boilerplate code and low-level details, while also supporting code generation and collaboration. The DSL balances expressiveness and abstraction, bridging the gap between domain experts and the complexities of instrumentation specification.}
+}
+
+
+@inproceedings{soueidi2023instrumentation,
+  title={Instrumentation for RV: From Basic Monitoring to Advanced Use Cases},
+  author={Soueidi, Chukri and Falcone, Yli\`{e}s},
+  booktitle={Proceedings of the 23rd International Conference on Runtime Verification},
+  year={2023},
+  eventdate={3 - 6 October 2023},
+  address={Thessaloniki, Greece},
+ note={To appear},
+       abbr={RV 23},
+  abstract={Instrumentation is crucial in Runtime Verification because it should ensure that monitors are fed with relevant and accurate information about the executing program under monitoring. While expressive instrumentation is desirable to handle any possible monitoring scenario, instrumentation should also efficiently capture the just-needed information and impact the monitoring program as least as possible. This tutorial comprehensively overviews the instrumentation process and considerations for single and multithreaded programs. We discuss often overlooked aspects in instrumenting multithreaded programs. We also cover metrics for evaluating the efficiency and effectiveness of instrumentation. We use four hands-on use cases to apply the introduced concepts and provide practical guidance on choosing and applying instrumentation for runtime verification.}
+}
+
+
+@article{soueidi2023efficient,
+  title={Efficient and expressive bytecode-level instrumentation for Java programs},
+  author={Soueidi, Chukri and Monnier, Marius and Falcone, Yli{\`e}s},
+  journal={International Journal on Software Tools for Technology Transfer},
+  pages={1--27},
+     bibtex_show={true},
+  year={2023},
+  publisher={Springer},
+  url={https://link.springer.com/article/10.1007/s10009-023-00708-z},
+  abbr={STTT},
+  doi = {10.1007/s10009-023-00708-z},
+  abstract={We present an efficient and expressive tool for the instrumentation of Java programs at the bytecode level. BISM (Bytecode-Level Instrumentation for Software Monitoring) is a lightweight Java bytecode instrumentation tool that features an expressive high-level control-flow-aware instrumentation language. The instrumentation language is inspired by the aspect-oriented programming paradigm in modularizing instrumentation into separate transformers that encapsulate joinpoint selection and advice inlining, that is the selection of points of interest in the execution and the execution of additional code at these points, respectively. BISM allows capturing joinpoints ranging from bytecode instructions to methods execution and provides comprehensive static and dynamic context information. It runs in two instrumentation modes: build-time and load-time. BISM also provides a mechanism to compose transformers and automatically detect when they interfere on the base program. Transformers in a composition can control the visibility of their advice and other instructions from the base program. We show several example applications for BISM and demonstrate its effectiveness using three experiments: a security scenario, a financial transaction system, and a general runtime verification case. The results show that (i) BISM instrumentation incurs low runtime and memory overheads and (ii) the code produced by BISM performs better than the one produced by existing Java instrumentation tools.}
+
+}
+
+@inproceedings{halle2023leveraging,
+  title={Leveraging Runtime Verification for the Monitoring of Digital Twins},
+  author={Hall\'{e}, Sylvain and Soueidi, Chukri and Falcone, Yli\`{e}s},
+  year={2023},
+  booktitle={Preproceedings of the Workshop on Applications of Formal Methods and Digital Twins},
+  publisher={Informatics Library, University of Oslo},
+  address={L\"{u}beck, Germany},
+  month={3},
+  note={Co-located with the 25th International Symposium on Formal Methods},
+  url={https://www.duo.uio.no/handle/10852/101662},
+  abstract={The paper considers the problem of discovering divergences between the actions of a digital twin and those of its real-world counterpart. It observes the similarities between this problem and an existing field of formal methods called Runtime Verification (RV), and suggests leveraging and adapting RV techniques to this effect. Concretely, three important aspects of the problem are identified and for which both theoretical and practical challenges must be addressed.}
+}
+
 
 
 
@@ -158,7 +219,8 @@ url={https://doi.org/10.1007/978-3-031-32157-3_4},
 	year = {2019}, 
   booktitle = {American University of Beirut Master Thesis in Computer Science},
     pdf={t-7054.pdf},
-    abbr={MS},
+    abbr={AUB},
+    url={https://scholarworks.aub.edu.lb/bitstream/handle/10938/21795/t-7054.pdf?sequence=1},
     abstract={We address the problem of modeling, analyzing, and repairing finite-state and infinite-state concurrent programs. We define a textual notation for concurrent programs and implement it in the Eshmun tool. For finite-state programs, we automatically generate Kripke structures (transition diagrams) from the program text. This structure can then be model checked and repaired using Eshmun facilities. The resulting repair can then be used to guide the designer in fixing the program itself. For infinite-state programs, we define the notion of a finitely-representable infinite-state Kripke structure, and we provide a semi-automatic method for generating such a structure from an infinite-state concurrent program. This structure models the behavior of the infinite state concurrent program. We label the states of the Kripke structure with state predicates, and the transitions with preconditions P and postconditions Q. Each transition τ then generates a Hoare triple [P] τ [Q] which we verify using the Z3 SMT solver. Hoare triples that are not valid must be repaired. When all triples are valid, we model check to determine if the required properties hold. If the model check fails, more repair is needed. If the model check succeeds, we can semi-automatically extract a correct infinite state concurrent program.}
  
 }
