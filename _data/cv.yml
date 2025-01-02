@@ -4,9 +4,9 @@
     - name: Full Name
       value: Chukri Soueidi
     - name: Current Position
-      value: Software Engineering Researcher / Doctoral Candidate
+      value: Senior Technical Lead, Protocols, SDK, and Compliance
     - name: Location
-      value: Grenoble, France
+      value: Paris, France
     - name: Email
       value: chukrisoueidi@gmail.com
     - name: Publications
@@ -32,6 +32,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Senior Technical Lead, Protocols, SDK, and Compliance
+      institution: MailSPEC, Paris, France
+      year: 2024 - Present
+      description:
+        - Integrating MailSPEC solutions with Microsoft 365.
+        - Refining and writing protocols, ensuring compliance, and developing SDKs.
     - title: Software Engineering Researcher / Doctoral Candidate
       institution: Inria, Grenoble, France
       year: 2019 - Present
